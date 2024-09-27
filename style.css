@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 200vh;
+    float: left;
+}
+
+.logo {
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+span {
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: -7px;
+}
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 145, 0);
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#home {
+    position: relative;
+    top: -35px;
+    left: 62%;
+}
+
+#products {
+    position: relative;
+    top: -65px;
+    left: 70%;
+}
+
+#cart {
+    position: relative;
+    top: -95px;
+    left: 81%;
+}
+
+#login {
+    position: relative;
+    top: -125px;
+    left: 88%;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    font-size: 20px;
+    transition: 0.5s ease;
+    
+}
+
+.product-title {
+    font-size: 35px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    border-bottom: 1px solid black;
+}
+
+#star1 {
+    height: 15px;
+    color: orange;
+    position: absolute;
+    top: 210px;
+    left: 850px;
+}
+#star2 {
+    height: 15px;
+    color: orange;
+    position: absolute;
+    top: 210px;
+    left: 880px;
+}
+#star3 {
+    height: 15px;
+    color: orange;
+    position: absolute;
+    top: 210px;
+    left: 910px;
+}
+#star4 {
+    height: 15px;
+    color: orange;
+    position: absolute;
+    top: 210px;
+    left: 940px;
+}
+#star5 {
+    height: 15px;
+    color: orange;
+    position: absolute;
+    top: 210px;
+    left: 970px;
+}
+
+#RuppeeIcon {
+    font-size: 25px;
+    position: absolute;
+    top: 230px;
+    left: 700px;
+}
+
+.product-price {
+    font-size: 35px;
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    font-weight: 500;
+}
+
+.price-tag {
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 160px;
+    left: 700px;
+}
+
+.product-material-tag {
+    font-size: 20px;
+    position: absolute;
+    top: 270px;
+    left: 700px;
+    border-bottom: 1px solid grey;
+}
+.product-key-features-tag {
+    font-size: 20px;
+    position: absolute;
+    top: 560px;
+    left: 548px;
+    border-bottom: 1px solid grey;
+}
+
+.product-upper-description {
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 320px;
+    left: 770px;
+}
+.product-midsole-description {
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 400px;
+    left: 780px;
+}
+.product-lining-description {
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 490px;
+    left: 765px;
+}
+
+.material-upper-tag {
+    position: absolute;
+    top: 320px;
+    left: 700px;
+}
+.material-midsole-tag {
+    position: absolute;
+    top: 400px;
+    left: 690px;
+}
+.material-lining-tag {
+    position: absolute;
+    top: 490px;
+    left: 690px;
+}
+.imagebutton{
+    width: 180px;
+    font-size: 12px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 35px;
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    font-weight: 600;
+}
+.cartbutton{
+    width: 180px;
+    font-size: 12px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 35px;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    font-weight: 600;
+}
+.buybutton{
+    width: 390px;
+    font-size: 12px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 35px;
+    position: absolute;
+    top: 650px;
+    left: 695px;
+    font-weight: 600;
+}
+
+.imageselector {
+    display: flex;
+    gap: 20px;
+}
+
+.preview { 
+    height: 550px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    position: absolute;
+    right: 700px;
+    margin-top: 20px;
+
+}
+
+.ImgSelector {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+    top: 570px;
+    left: 70px;
+}
+
+.ImgSelector:hover {
+    transform: scale(1.1);
+    border: 2px solid #007bff;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 38rem;
+    left: 0;
+}
+.underline2 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 46rem;
+    left: 0;
+}
+.reviewheading {
+    font-size: 30px;
+    position: relative;
+    top: 40rem;
+    left: 35%;
+    text-decoration: underline;
+}
+
+.review1 #usericon1 {
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 44.5rem;
+    left: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.review1 .reviewname1 {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 41.5rem;
+    left: 10rem;
+}
+
+.review1 .reviewrating1 {
+    font-size: 20px;
+    position: relative;
+    top: 42rem;
+    left: 10rem;
+}
+.review1 .reviewdate1 {
+    font-size: 20px;
+    position: relative;
+    top: 42.5rem;
+    left: 10rem;
+}
+.review1 .reviewdescription1 {
+    font-size: 20px;
+    position: relative;
+    top: 43.5rem;
+    left: 10rem;
+    right: 8rem;
+}
+.reviewunderline1 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 45rem;
+    left: 0;
+}
+.review2 #usericon2 {
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 46.5rem;
+    left: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.review2 .reviewname2 {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 43.5rem;
+    left: 10rem;
+}
+
+.review2 .reviewrating2 {
+    font-size: 20px;
+    position: relative;
+    top: 44rem;
+    left: 10rem;
+}
+.review2 .reviewdate2 {
+    font-size: 20px;
+    position: relative;
+    top: 44.5rem;
+    left: 10rem;
+}
+.review2 .reviewdescription2 {
+    font-size: 20px;
+    position: relative;
+    top: 45.5rem;
+    left: 10rem;
+    right: 8rem;
+}
+.reviewunderline2 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 46.5rem;
+    left: 0;
+}
+.review3 #usericon3 {
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 47.5rem;
+    left: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.review3 .reviewname3 {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 44.5rem;
+    left: 10rem;
+}
+
+.review3 .reviewrating3 {
+    font-size: 20px;
+    position: relative;
+    top: 44.5rem;
+    left: 10rem;
+}
+.review3 .reviewdate3 {
+    font-size: 20px;
+    position: relative;
+    top: 45rem;
+    left: 10rem;
+}
+.review3 .reviewdescription3 {
+    font-size: 20px;
+    position: relative;
+    top: 46rem;
+    left: 10rem;
+    right: 8rem;
+}
+.reviewunderline3 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 47rem;
+    left: 0;
+}
+.review4 #usericon4 {
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 48.5rem;
+    left: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.review4 .reviewname4 {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 45.5rem;
+    left: 10rem;
+}
+
+.review4 .reviewrating4 {
+    font-size: 20px;
+    position: relative;
+    top: 45.5rem;
+    left: 10rem;
+}
+.review4 .reviewdate4 {
+    font-size: 20px;
+    position: relative;
+    top: 46rem;
+    left: 10rem;
+}
+.review4 .reviewdescription4 {
+    font-size: 20px;
+    position: relative;
+    top: 47rem;
+    left: 10rem;
+    right: 8rem;
+}
+.reviewunderline4 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 48rem;
+    left: 0;
+}
+.review5 #usericon5 {
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 49.5rem;
+    left: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.review5 .reviewname5 {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 46.5rem;
+    left: 10rem;
+}
+
+.review5 .reviewrating5 {
+    font-size: 20px;
+    position: relative;
+    top: 46.5rem;
+    left: 10rem;
+}
+.review5 .reviewdate5 {
+    font-size: 20px;
+    position: relative;
+    top: 47rem;
+    left: 10rem;
+}
+.review5 .reviewdescription5 {
+    font-size: 20px;
+    position: relative;
+    top: 48rem;
+    left: 10rem;
+    right: 8rem;
+}
+.reviewunderline5 {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 49rem;
+    left: 0;
+}
